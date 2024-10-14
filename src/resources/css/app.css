@@ -1,0 +1,12 @@
+button.disabled {
+    background-color: #ccc;
+    /* 無効ボタンの背景色 */
+    color: #666;
+    /* 無効ボタンのテキスト色 */
+    cursor: not-allowed;
+    /* カーソルを変更 */
+    pointer-events: none;
+    /* クリックを無効にする */
+    opacity: 0.6;
+    /* 透過度を変更 */
+}
